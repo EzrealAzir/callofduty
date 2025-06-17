@@ -1,0 +1,287 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>¡Fuego en el Agujero! - Call of Duty</title>
+     <style>
+         /* Estilos CSS - ¡Prepárate para la acción! */
+         body {
+             font-family: 'Arial Black', sans-serif; /* Fuente más impactante */
+             margin: 0;
+             padding: 0;
+             background-color: #222; /* Fondo aún más oscuro */
+             color: #ddd; /* Texto ligeramente más oscuro para contraste con los acentos brillantes */
+             line-height: 1.6;
+         }
+
+         header {
+             background-color: #000;
+             color: #ffc85e; /* Dorado más intenso y "energético" */
+             padding: 30px 0;
+             text-align: center;
+             border-bottom: 5px solid #ffc85e;
+             box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+         }
+
+         header h1 {
+             margin: 0;
+             font-size: 4em;
+             text-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+             letter-spacing: 1px; /* Más espacio entre letras para impacto */
+         }
+
+         header p {
+             font-size: 1.2em;
+             color: #eee;
+             margin-top: 10px;
+         }
+
+         nav {
+             background-color: #333;
+             padding: 15px 0;
+             text-align: center;
+             border-bottom: 2px solid #555;
+         }
+
+         nav ul {
+             list-style: none;
+             padding: 0;
+             margin: 0;
+         }
+
+         nav ul li {
+             display: inline-block;
+             margin: 0 20px;
+         }
+
+         nav ul li a {
+             color: #f0f0f0;
+             text-decoration: none;
+             font-weight: bold;
+             font-size: 1.2em;
+             padding: 8px 15px;
+             border-radius: 7px;
+             background-color: #444;
+             transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+             border: 1px solid #555;
+         }
+
+         nav ul li a:hover {
+             background-color: #ffc85e;
+             color: #111;
+             border-color: #ffc85e;
+         }
+
+         .container {
+             width: 85%;
+             margin: 30px auto;
+             padding: 25px;
+             background-color: #2a2a2a;
+             border-radius: 10px;
+             box-shadow: 0 0 20px rgba(0,0,0,0.7);
+             border: 1px solid #333;
+         }
+
+         section {
+             margin-bottom: 50px;
+             padding: 25px;
+             background-color: #333;
+             border-radius: 8px;
+             border-left: 8px solid #ffc85e; /* Borde más grueso y llamativo */
+             box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+         }
+
+         section h2 {
+             color: #ffc85e;
+             border-bottom: 3px dashed #ffc85e; /* Borde más dinámico */
+             padding-bottom: 12px;
+             margin-top: 0;
+             font-size: 2.5em;
+             text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+             /* Aquí podrías usar una clase como 'title-blast' y con JS cambiar el texto a algo como 'BLAST! Clases...' con estilos adicionales */
+         }
+
+         section p {
+             color: #ddd;
+             font-size: 1.1em;
+             line-height: 1.7;
+         }
+
+         section ul {
+             list-style-type: disc;
+             padding-left: 30px;
+             color: #eee;
+         }
+
+         section strong {
+             color: #ffc85e; /* Destacar elementos importantes */
+         }
+
+         /* Estilos para la tabla - ¡Información táctica! */
+         table {
+             width: 100%;
+             border-collapse: collapse;
+             margin-top: 25px;
+             box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+         }
+
+         th, td {
+             border: 2px solid #555;
+             padding: 15px;
+             text-align: left;
+         }
+
+         th {
+             background-color: #444;
+             color: #ffc85e;
+             font-weight: bold;
+             text-transform: uppercase;
+             letter-spacing: 0.5px;
+         }
+
+         tbody tr:nth-child(even) {
+             background-color: #3a3a3a;
+         }
+
+         tbody tr:hover {
+             background-color: #555;
+             color: #fff;
+         }
+
+         footer {
+             text-align: center;
+             padding: 25px 0;
+             background-color: #000;
+             color: #eee;
+             margin-top: 50px;
+             border-top: 5px solid #ffc85e;
+             box-shadow: 0 -2px 5px rgba(0,0,0,0.8);
+             font-size: 0.9em;
+         }
+
+         /* Posibles clases para efectos de texto (necesitarían JS o más CSS avanzado) */
+         /*.title-blast {
+         /* font-size: 3em;
+             /* animation: explode 0.5s ease-out; /* Ejemplo de animación CSS */
+         /*}
+
+         /* @keyframes explode {
+         /* 0% { transform: scale(1); opacity: 1; }
+         /* 100% { transform: scale(1.2); opacity: 0; }
+         /*}*/
+     </style>
+ </head>
+ <body>
+
+     <header>
+         <h1>¡OPERACIÓN! Call of Duty</h1>
+         <p>Entra en la zona de combate...</p>
+     </header>
+
+     <nav>
+         <ul>
+             <li><a href="#clases">¡EQUIPA! Clases</a></li>
+             <li><a href="#juegos">¡DESPLIEGUE! Juegos</a></li>
+             <li><a href="#lore">¡HISTORIA! Lore</a></li>
+             <li><a href="#mapas">¡ZONAS! Mapas</a></li>
+             <li><a href="#eSports">¡COMPETICIÓN! eSports</a></li>
+         </ul>
+     </nav>
+
+     <div class="container">
+
+         <section id="clases">
+             <h2><span style="color: #f00;">¡IMPACTO!</span> Clases y Armamentos</h2>
+             <p>Selecciona tu especialidad y prepárate para la acción. Cada clase ofrece un estilo de juego único con armamento y equipo táctico esencial para la victoria.</p>
+             <p>Aquí tienes configuraciones clave para diferentes roles en el equipo:</p>
+             <ul>
+                 <li><strong>¡ASALTO!</strong>: Fusiles versátiles para el combate frontal. Ejemplo: M4A1 con mira holográfica y empuñadura.</li>
+                 <li><strong>¡FRANCOTIRADOR!</strong>: Precisión letal desde la distancia. Ejemplo: AX-50 con mira de alto alcance y bípode.</li>
+                 <li><strong>¡APOYO!</strong>: Potencia de fuego sostenida para mantener la línea. Ejemplo: LMG PKM con cargador ampliado y culata estable.</li>
+                 <li><strong>¡TÁCTICO!</strong>: Control del campo de batalla con equipo especializado. Ejemplo: Escudo antidisturbios y cuchillo de combate.</li>
+             </ul>
+             <p>¡Experimenta y encuentra tu estilo de combate!</p>
+         </section>
+
+         <section id="juegos">
+             <h2><span style="color: #00f;">¡LEYENDAS!</span> Juegos Principales de la Franquicia</h2>
+             <p>Revive los momentos más épicos de la historia de Call of Duty. Cada título ha marcado un antes y un después en los shooters en primera persona.</p>
+             <table>
+                 <thead>
+                     <tr>
+                         <th>Año</th>
+                         <th>Título</th>
+                         <th><span style="color: #0f0;">¡ENEMIGO!</span> Principal</th>
+                         <th><span style="color: #ff0;">¡ACCIÓN!</span> Destacada</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>2007</td>
+                         <td>Modern Warfare</td>
+                         <td>Terroristas y nacionalistas radicales</td>
+                         <td>Campaña cinemática y multijugador innovador.</td>
+                     </tr>
+                     <tr>
+                         <td>2009</td>
+                         <td>Modern Warfare 2</td>
+                         <td>El regreso de Makarov y una guerra global.</td>
+                         <td>Misiones encubiertas y el infame nivel "No Russian".</td>
+                     </tr>
+                     <tr>
+                         <td>2010</td>
+                         <td>Black Ops</td>
+                         <td>Conspiraciones de la Guerra Fría y agentes encubiertos.</td>
+                         <td>Campaña con giros argumentales y el modo Zombies.</td>
+                     </tr>
+                     <tr>
+                         <td>2019</td>
+                         <td>Modern Warfare</td>
+                         <td>Amenazas modernas y guerra asimétrica.</td>
+                         <td>Realismo crudo y un regreso a la crudeza del combate.</td>
+                     </tr>
+                     <tr>
+                         <td>2020</td>
+                         <td>Black Ops Cold War</td>
+                         <td>Enfrentamientos secretos entre la CIA y la KGB.</td>
+                         <td>Campaña con múltiples finales y conexión con la historia original de Black Ops.</td>
+                     </tr>
+                 </tbody>
+             </table>
+             <p>¡Cada juego es una nueva misión que cumplir!</p>
+         </section>
+
+         <section id="lore">
+             <h2><span style="color: #a020f0;">¡SECRETOS!</span> Lore y Trasfondo de CoD</h2>
+             <p>Sumérgete en el universo profundo y complejo de Call of Duty. Descubre las conexiones entre los juegos, los destinos de los personajes y los eventos que moldean este mundo de conflicto.</p>
+             <p>Desde los héroes condecorados hasta los villanos más despiadados, cada personaje tiene una historia que contar. Sigue el rastro de figuras legendarias como el Capitán Price, Ghost y Alex Mason a través de sus peligrosas misiones.</p>
+         </section>
+
+         <section id="mapas">
+             <h2><span style="color: #ffa500;">¡TERRITORIO!</span> Mapas Clave y Estrategias</h2>
+             <p>Conoce los campos de batalla donde se libran las contiendas más intensas. Cada mapa presenta desafíos únicos que requieren tácticas y coordinación para dominar.</p>
+             <ul>
+                 <li><strong>Nuketown:</strong> ¡Caos y enfrentamientos directos en un espacio reducido! Ideal para practicar reflejos rápidos.</li>
+                 <li><strong>Crash:</strong> ¡Combate urbano vertical con tejados y callejones peligrosos! La estrategia es clave para controlar los puntos altos.</li>
+                 <li><strong>Raid:</strong> ¡Una mansión elegante convertida en zona de guerra! Flanqueos y control de los interiores son cruciales.</li>
+                 <li><strong>Shoot House:</strong> ¡Entrenamiento intenso y combate frenético en un entorno simulado! Perfecto para mejorar tu puntería.</li>
+             </ul>
+             <p>¡Adapta tu estilo de juego a cada entorno para asegurar la victoria!</p>
+         </section>
+
+         <section id="eSports">
+             <h2><span style="color: #00fa9a;">¡PROS!</span> La Escena Competitiva de Call of Duty</h2>
+             <p>Observa a los mejores jugadores del mundo enfrentarse en la Call of Duty League. Estrategia, habilidad y trabajo en equipo al más alto nivel.</p>
+             <p>Sigue a tus equipos y jugadores favoritos, analiza sus tácticas y vive la emoción de los torneos profesionales. Modos como Buscar y Destruir, Punto Caliente y Control son el escenario de batallas épicas por el campeonato.</p>
+         </section>
+
+     </div>
+
+     <footer>
+         <p>&copy; 2025 <span style="color: #ffc85e;">¡VICTORIA!</span> - Fan Page de Call of Duty. Derechos reservados.</p>
+     </footer>
+
+ </body>
+ </html>
+ 
